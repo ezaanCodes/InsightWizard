@@ -9,7 +9,7 @@ from langchain.chains import create_retrieval_chain
 from langchain_community.vectorstores import Chroma
 
 # Set up API key
-GOOGLE_API_KEY = "AIzaSyAIzGgjwuwIWq-AunpmOj4VFB2kM_kAEnY"
+GOOGLE_API_KEY = "your key here"
 
 # Load the models
 llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=GOOGLE_API_KEY)
